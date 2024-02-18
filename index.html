@@ -3,9 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>online ticket</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tailwind.config.js">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
-    
+<body class="font-raleway">
+
+    <header>
+        <!-- full navbar -->
+        <div class="flex gap-x-40 m-16">
+
+            <!-- nav-t -->
+            <div class="relative">
+               <p class="font-bold text-5xl">P-Ticket</p>
+            </div>
+
+            <!-- nav -->
+            <div class="flex gap-10 relative font-semibold text-xl">
+               <a href="Home">Home</a>
+               <a href="About">About</a>
+               <a href="Destination">Destination</a>
+               <a href="Search">Search</a>
+            </div>
+
+            <!-- logo -->
+            <div class="flex relative gap-2 font-semibold text-3xl bg-green-100 px-10 py-4 rounded-lg">
+               <p class="">BUS</p>
+               <img src="images/bus-icon.png" alt="">
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+        <!-- banner sec start -->
+        <div>
+            <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with P Paribahan</h1>
+                    <p class="mb-5">Travel by bus! provides charter buses and comprehensive transportation solutions for groups of all sizes and interests.</p>
+                    <button class="btn btn-primary bg-green-400 rounded-lg text-black font-bold text-2xl p-3">Buy Tickets</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+        <!-- coupon sec -->
+        <div class="m-40">
+            <h1 class="font-bold text-3xl text-center mb-10">Best offers for you</h1>
+            <div class="flex flex-row gap-24">
+                <!-- c-1 -->
+                <div>
+                    <div class="card w-96 bg-base-100 shadow-xl bg-yellow-400 flex flex-row">
+                        <div class="card-body">
+                          <h1 class="card-title font-bold">15% OFF</h1>
+                          <h3>On your next purchase</h3>
+                          <p>Use by january 2024</p>
+                        </div>
+                        <div class="mt-10 mr-4">
+                            <h3 class="font-bold">NEW 15</h3>
+                            <p>Coupon code</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- c-2 -->
+                <div>
+                    <div class="card w-96 bg-base-100 shadow-xl bg-pink-300 flex flex-row">
+                        <div class="card-body">
+                          <h1 class="card-title font-bold">20% OFF</h1>
+                          <h3>On your next purchase</h3>
+                          <p>Use by january 2024</p>
+                        </div>
+                        <div class="mt-10 mr-4">
+                            <h3 class="font-bold">Couple 20</h3>
+                            <p>Coupon code</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div><br><br>
+
+            <!-- coupon btn -->
+            <div class=" flex justify-center items-center">
+                <button class="btn font-bold text-xl text-green-800 p-2 rounded-lg px-4">See All Offers</button>
+            </div>
+        </div>
+
+
+        <!-- poribohon section -->
+        <div class="bg-gray-200 rounded-lg">
+            <div class="flex flex-col justify-center items-center">
+                <h1 class="text-3xl font-bold"> P.H Paribahan</h1>
+                <p>Yes, you can run unit tests and view the results directly within the app. The    integrated testing features allow for a streamlined .</p>
+            </div>
+
+            <!-- green poribohon sec -->
+            <div>
+                <div>
+                     <img src="images/bus-logo.png" alt="">
+                </div>
+                <div>
+                    <h2>Greenline Paribahan</h2>
+                    <p></p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+    <script src="ticket.js"></script>
 </body>
 </html>
